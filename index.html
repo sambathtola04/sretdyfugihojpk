@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tola's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="bg-gradient"></div>
+
+    <div class="nav-wrapper">
+        <nav class="navbar">
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <section id="home" class="container">
+        <div class="avatar-frame">
+            <img src="pictureone.jpg" alt="Tola's Avatar">
+        </div>
+        <h1 class="hero-title">Hi, I'm Tola.</h1>
+        <p class="hero-text">
+            <strong>Developer</strong>, constantly fueling my passion for learning. I'm always on the lookout
+            for new things to try.
+        </p>
+        <div class="social-icons">
+            <a class="icon-btn" href="https://t.me/sambathtola19" target="_blank" aria-label="Telegram">TG</a>
+
+            <a class="icon-btn" href="https://twitter.com/sambathtola04" target="_blank" aria-label="X (Twitter)">TW</a>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <div class="about-image">
+            <img src="picturetwo.jpg" alt="Tola Standing Photo">
+        </div>
+        <p class="about-text">
+            ​Hello, my name is Tola. I am currently a student at the Royal University of Phnom Penh (RUPP),
+            majoring in Information Technology. I am passionate about learning new technologies and developing my skills
+            in programming, networking,
+            and modern IT systems. I am always eager to improve myself, gain real-world experience,
+            and explore opportunities that help me grow in the technology field.
+        </p>
+    </section>
+
+
+
+
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <span class="skill-pill">Blockchain</span>
+            <span class="skill-pill">CSS</span>
+            <span class="skill-pill">IT Support</span>
+            <span class="skill-pill">HTML</span>
+            <span class="skill-pill">Git</span>
+            <span class="skill-pill">JavaScript</span>
+            <span class="skill-pill">Kubernetes</span>
+            <span class="skill-pill">Next.js</span>
+            <span class="skill-pill">PostgreSQL</span>
+            <span class="skill-pill">Prisma</span>
+            <span class="skill-pill">React</span>
+            <span class="skill-pill">Solidity</span>
+            <span class="skill-pill">Spring</span>
+            <span class="skill-pill">Tailwind</span>
+            <span class="skill-pill">TypeScript</span>
+        </div>
+    </section>
+
+    <section id="experience" class="container">
+        <h2>My Experience</h2>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-icon">💻</div>
+                <div class="timeline-content">
+                    <h3 class="role-title">IT Support</h3>
+                    <span class="company-name">Master of Backpack</span>
+                    <p class="timeline-desc">
+                        My first ever job within the world of Tech. Truly a memorable experience for me that set a
+                        solid foundation. I learned many programming skills during my time working there.
+                    </p>
+                    <span class="timeline-date">27-May-2025</span>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">🎓</div>
+                <div class="timeline-content">
+                    <h3 class="role-title">Developer Internship</h3>
+                    <span class="company-name">Techo Startup Center</span>
+                    <p class="timeline-desc">
+                        My first real taste of a professional environment. I gained knowledge and skills from system
+                        design patterns to soft skills and communication.
+                    </p>
+                    <span class="timeline-date">Januar 2024 - March 2025</span>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">🚀</div>
+                <div class="timeline-content">
+                    <h3 class="role-title">Web Developer</h3>
+                    <span class="company-name">Techo Startup Center</span>
+                    <p class="timeline-desc">
+                        After a successful internship, I landed a full-stack developer job with diverse projects. A
+                        challenging but highly rewarding environment.
+                    </p>
+                    <span class="timeline-date">Present</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container contact-section">
+        <h2 class="section-header">Contact me</h2>
+        <p class="contact-text">
+            Feel free to reach out to me at
+            <a class="contact-link" href="mailto:sambathtola.04@gmail.com">sambathtola04@gmail.com</a>
+            or through the form below.
+        </p>
+
+        <form class="contact-form" action="" enctype="multipart/form-data" method="POST">
+            <input type="email" class="form-input" placeholder="Your email" maxlength="100" required name="email">
+
+            <textarea name="message" class="form-textarea" placeholder="Your message" maxlength="500"
+                required></textarea>
+
+            <button type="submit" aria-label="Submit form" class="submit-button">
+                Submit
+            </button>
+        </form>
+    </section>
+
+    <footer>
+        &copy; 2025 Tola. All rights reserved.<br>
+        About this website: built with React & Next.js, Tailwind CSS.
+        Thank you for watching
+    </footer>
+
+</body>
+
+</html>
